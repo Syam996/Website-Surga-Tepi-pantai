@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ocean Haven Resort & Spa | Key West, Florida</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<header class="navbar">
+  <input type="checkbox" id="menu-toggle" hidden>
+  <label for="menu-toggle" class="hamburger" aria-label="Buka menu">☰</label>
+  <nav>
+    <a href="#beranda" class="aktif">Beranda</a>
+    <a href="#kamar">Kamar</a>
+    <a href="#pengalaman">Pengalaman</a>
+    <a href="#kuliner">Kuliner</a>
+    <a href="#pengalaman">Spa</a>
+    <a href="#galeri">Galeri</a>
+    <a href="#penawaran">Penawaran</a>
+    <a href="#kontak">Kontak</a>
+    <a href="#penawaran" class="btn btn-gelap btn-nav">Pesan Sekarang</a>
+  </nav>
+</header>
+
+<!-- ===== HERO ===== -->
+<section class="hero" id="beranda">
+  <div class="hero-isi">
+    <p class="kecil-atas">Lepaskan penat. Santai. Pulihkan diri.</p>
+    <h1>Surga Tepi Pantai<br>Menanti Anda<br><span class="skrip">di Key West</span></h1>
+    <p class="hero-teks">Kemewahan tepi laut, kenyamanan kelas dunia, dan pengalaman tak terlupakan di jantung surga tropis.</p>
+    <div class="hero-tombol">
+      <a href="#kamar" class="btn btn-gelap">Jelajahi Resor</a>
+    </div>
+  </div>
+
+  <form class="booking" action="#">
+    <label>Check-in<input type="date" value="2026-12-24"></label>
+    <label>Check-out<input type="date" value="2026-12-27"></label>
+    <label>Tamu
+      <select><option>2 Dewasa, 0 Anak</option><option>2 Dewasa, 1 Anak</option><option>1 Dewasa</option><option>4 Dewasa</option></select>
+    </label>
+    <label>Kamar
+      <select><option>1 Kamar</option><option>2 Kamar</option><option>3 Kamar</option></select>
+    </label>
+    <button class="btn btn-krem">Cek Ketersediaan</button>
+  </form>
+</section>
+
+<!-- ===== KEUNGGULAN ===== -->
+<section class="keunggulan">
+  <div><h3>Lokasi Tepi Pantai</h3><p>Pemandangan memukau &amp; akses langsung ke pantai</p></div>
+  <div><h3>Akomodasi Mewah</h3><p>Kamar &amp; vila luas dengan kenyamanan modern</p></div>
+  <div><h3>Kuliner Istimewa</h3><p>Cita rasa segar dari bahan-bahan lokal</p></div>
+  <div><h3>Wellness &amp; Spa</h3><p>Rileks, segarkan, dan pulihkan jiwa Anda</p></div>
+  <div><h3>Layanan Kelas Dunia</h3><p>Pelayanan personal di setiap momen</p></div>
+</section>
+
+<!-- ===== KAMAR ===== -->
+<section class="bagian" id="kamar">
+  <p class="label">Menginap dengan Gaya</p>
+  <h2>Kamar &amp; Suite yang Dirancang untuk Anda</h2>
+  <div class="hiasan"></div>
+  <div class="kartu-grid">
+    <article class="kartu-kamar">
+      <div class="foto foto-kamar1"></div>
+      <h3>Kamar Pemandangan Laut</h3>
+      <p>Bangun tidur disambut pemandangan memukau Samudra Atlantik.</p>
+      <p class="harga">MULAI <strong>Rp 3.600.000</strong> / MALAM</p>
+      <a href="#" class="btn btn-gelap">Lihat Detail</a>
+    </article>
+    <article class="kartu-kamar">
+      <div class="foto foto-kamar2"></div>
+      <h3>Suite Tepi Kolam</h3>
+      <p>Hanya selangkah dari kolam, dengan teras pribadi dan suasana tropis.</p>
+      <p class="harga">MULAI <strong>Rp 6.800.000</strong> / MALAM</p>
+      <a href="#" class="btn btn-gelap">Lihat Detail</a>
+    </article>
+    <article class="kartu-kamar">
+      <div class="foto foto-kamar3"></div>
+      <h3>Vila Tepi Pantai</h3>
+      <p>Vila eksklusif dengan ruang tamu luas, dapur, dan balkon menghadap laut.</p>
+      <p class="harga">MULAI <strong>Rp 12.600.000</strong> / MALAM</p>
+      <a href="#" class="btn btn-gelap">Lihat Detail</a>
+    </article>
+  </div>
+  <a href="#" class="btn btn-garis tengah">Lihat Semua Akomodasi</a>
+</section>
+
+<!-- ===== PENGALAMAN ===== -->
+<section class="bagian abu" id="pengalaman">
+  <p class="label">Momen Tak Terlupakan</p>
+  <h2>Pengalaman yang Menginspirasi</h2>
+  <div class="hiasan"></div>
+  <div class="pengalaman-grid">
+    <article id="aktivitas"><div class="foto foto-p1"></div><h3>Aktivitas Air</h3><p>Snorkeling, kayak, paddleboarding, dan banyak lagi.</p></article>
+    <article id="kuliner"><div class="foto foto-p2"></div><h3>Makan Malam Romantis</h3><p>Hidangan pribadi dengan suasana matahari terbenam yang tak terlupakan.</p></article>
+  </div>
+  <a href="#" class="btn btn-garis tengah">Lihat Semua Pengalaman</a>
+</section>
+
+<!-- ===== TESTIMONI ===== -->
+<section class="bagian" id="galeri">
+  <p class="label">Kata Para Tamu</p>
+  <h2>Kenangan yang Abadi Seumur Hidup</h2>
+  <div class="hiasan"></div>
+  <div class="kartu-grid">
+    <blockquote class="testi">
+      <q>Resor terindah yang pernah kami inapi! Pemandangan, pelayanan, dan perhatian pada detailnya benar-benar sempurna.</q>
+      <footer><span class="avatar">J</span><div><b>Jessica M.</b><small>Miami, FL</small></div><span class="bintang">★★★★★</span></footer>
+    </blockquote>
+    <blockquote class="testi">
+      <q>Dari kamar tepi laut yang menakjubkan sampai makanannya, semuanya melebihi harapan. Tidak sabar untuk kembali!</q>
+      <footer><span class="avatar">M</span><div><b>Michael T.</b><small>Austin, TX</small></div><span class="bintang">★★★★★</span></footer>
+    </blockquote>
+    <blockquote class="testi">
+      <q>Surga yang nyata! Para staf membuat perayaan ulang tahun pernikahan kami tak terlupakan.</q>
+      <footer><span class="avatar">S</span><div><b>Sarah L.</b><small>Chicago, IL</small></div><span class="bintang">★★★★★</span></footer>
+    </blockquote>
+  </div>
+  <div class="titik"><i class="on"></i><i></i><i></i></div>
+</section>
+
+<!-- ===== CTA ===== -->
+<section class="cta" id="penawaran">
+  <div>
+    <h2>Rencanakan Liburan Sempurna Anda</h2>
+    <p>Pesan langsung kepada kami untuk harga terbaik, penawaran eksklusif, dan kenangan tak terlupakan.</p>
+    <a href="#beranda" class="btn btn-krem">Pesan Penginapan Anda</a>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer" id="kontak">
+  <div class="footer-grid">
+    <div>
+      <a href="#beranda" class="logo logo-terang"><span class="logo-ikon"></span><span>OCEAN HAVEN<small>RESORT &amp; SPA</small></span></a>
+      <p>Resor mewah tepi laut di Key West, Florida. Tempat setiap momen dibuat untuk kenangan yang tak terlupakan.</p>
+    </div>
+    <div>
+      <h4>Tautan Cepat</h4>
+      <a href="#beranda">Beranda</a><a href="#kamar">Menginap</a><a href="#pengalaman">Pengalaman</a><a href="#kuliner">Kuliner</a><a href="#pengalaman">Wellness</a><a href="#penawaran">Penawaran</a><a href="#kontak">Kontak</a>
+    </div>
+    <div>
+      <h4>Resor</h4>
+      <p> Jalan: Jl. Ocean Haven No. 500 Key West, FL 33040</p>
+      <p> Kontak: 085324117961</p>
+      <p> Gmail: info@oceanhavenresort.com</p>
+    </div>
+    <div>
+      <h4>Jam Operasional</h4>
+      <p>Resepsionis<br><b>24 Jam</b></p>
+      <p>Spa &amp; Wellness<br><b>09.00 – 20.00</b></p>
+      <p>Restoran<br><b>07.00 – 22.00</b></p>
+    </div>
+    <div>
+      <h4>Tetap Terhubung</h4>
+      <p>Berlangganan untuk mendapat penawaran eksklusif &amp; kabar terbaru resor.</p>
+      <form action="#"><input type="email" placeholder="Alamat email Anda" aria-label="Email"><button class="btn btn-krem">Berlangganan</button></form>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
